@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PersonInfoView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="XOx-oR-frS">
+                    <frame key="frameInset" minX="40" minY="17.54%" height="52.85%" maxX="40"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="aOk-tB-gwu">
+                            <frame key="frameInset" width="55" height="40"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <state key="normal" title="管理"/>
+                            <connections>
+                                <action selector="leftTopButtonClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="6vq-ft-T6Y"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="uTh-qs-dfZ">
+                            <frame key="frameInset" width="14.75%" height="11.63%"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="livepre_close.png"/>
+                            <connections>
+                                <action selector="closeButtonClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="bgA-j4-yOq"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" id="8Ea-Y4-SPe">
+                            <frame key="frameInset" minY="11.63%" height="53.33%"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" id="zqx-6r-fmt">
+                                    <frame key="frameInset" minX="37.46%" width="24.92%" height="39.36%"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="rOK-v7-pxi" customClass="WebImageView">
+                                            <frame key="frameInset" minX="2" minY="2" maxX="2" maxY="2"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        </imageView>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="XaD-ZU-Uo7">
+                                            <frame key="frameInset" minX="2" minY="2" maxX="2" maxY="2"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <connections>
+                                                <action selector="headerImageButtonClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="3iT-ln-arC"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" red="1" green="0.39663725430000002" blue="0.45098612170000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="CdB-iV-jyt" customClass="M80AttributedLabel">
+                                    <frame key="frameInset" minY="43.09%" height="16.75%"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" red="1" green="0.9552200823" blue="0.23371855620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="QTc-48-16l" customClass="M80AttributedLabel">
+                                    <frame key="frameInset" minY="59.84%" height="17.02%"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" red="0.41730907072799839" green="1" blue="0.35390873600076289" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="8nZ-f8-P2q" customClass="M80AttributedLabel">
+                                    <frame key="frameInset" minX="10" minY="76.33%" height="23.67%" maxX="10"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </view>
+                            </subviews>
+                        </view>
+                        <view contentMode="scaleToFill" id="wGg-nj-yRd">
+                            <frame key="frameInset" minY="64.97%" height="24.96%"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" id="gco-0f-4wi" customClass="M80AttributedLabel">
+                                    <frame key="frameInset" minY="10.23%" width="50.00%" height="33.52%"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="qKr-FQ-21X" customClass="M80AttributedLabel">
+                                    <frame key="frameInset" minY="10.23%" width="49.66%" height="33.52%"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="LTa-4z-QD7" customClass="M80AttributedLabel">
+                                    <frame key="frameInset" minY="52.84%" width="50.00%" height="33.52%"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="dkZ-BV-PZH" customClass="M80AttributedLabel">
+                                    <frame key="frameInset" minY="52.84%" width="49.66%" height="33.52%"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </view>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vNs-VE-lUh">
+                                    <frame key="frameInset" minX="50.17%" minY="9.66%" width="1" height="33.52%"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" red="1" green="0.094289575714342821" blue="0.13437342669543118" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="uXg-oc-B1z">
+                                    <frame key="frameInset" minX="50.17%" minY="52.84%" width="1" height="33.52%"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" red="1" green="0.094289575710000004" blue="0.13437342669999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </view>
+                        <view contentMode="scaleToFill" id="zoq-lU-XFK">
+                            <frame key="frameInset" minY="89.93%" height="10.07%"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LFL-1O-xMu">
+                                    <frame key="frameInset" minX="8.31%" width="83.22%" height="1"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="evb-6O-UMn">
+                                    <frame key="frameInset" minY="2.82%" width="49.49%" height="97.18%"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" title="关注"/>
+                                    <connections>
+                                        <action selector="attButtonClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="4L1-6z-dmi"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="T9e-6O-INM">
+                                    <frame key="frameInset" minY="2.82%" width="50.00%" height="97.18%"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" title="私信">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="inboxButtonClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="CWx-2T-02k"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="g8E-E6-djD">
+                                    <frame key="frameInset" minX="49.66%" minY="9.86%" width="1" height="76.06%"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" red="1" green="0.071068019460000006" blue="0.1886524551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="FBn-8J-1Qi">
+                                    <frame key="frameInset" minY="2.82%" height="97.18%"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" title="您的资料卡"/>
+                                    <connections>
+                                        <action selector="selfButtonClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="J3z-4p-MtG"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <connections>
+                <outlet property="attButton" destination="evb-6O-UMn" id="8b2-14-RXL"/>
+                <outlet property="attLabel" destination="gco-0f-4wi" id="mZx-Jv-H8x"/>
+                <outlet property="closeButton" destination="uTh-qs-dfZ" id="a8o-hE-SyL"/>
+                <outlet property="contentView" destination="XOx-oR-frS" id="Ih8-rh-3cY"/>
+                <outlet property="fansLabel" destination="qKr-FQ-21X" id="kVx-HQ-uDD"/>
+                <outlet property="headerBGView" destination="zqx-6r-fmt" id="v56-oC-Bhb"/>
+                <outlet property="headerImageView" destination="rOK-v7-pxi" id="1dL-6x-Hi0"/>
+                <outlet property="inboxButton" destination="T9e-6O-INM" id="D65-1g-nEt"/>
+                <outlet property="leftTopButton" destination="aOk-tB-gwu" id="raS-EY-kVG"/>
+                <outlet property="linLabel1" destination="vNs-VE-lUh" id="MVn-Bh-AYU"/>
+                <outlet property="linLabel2" destination="uXg-oc-B1z" id="9nW-D4-qK5"/>
+                <outlet property="linLabel3" destination="LFL-1O-xMu" id="n06-CN-KKs"/>
+                <outlet property="linLabel4" destination="g8E-E6-djD" id="Mh7-n0-Yyf"/>
+                <outlet property="nameLabel" destination="CdB-iV-jyt" id="az8-Lz-10B"/>
+                <outlet property="roomIdLabel" destination="QTc-48-16l" id="6wf-ki-nET"/>
+                <outlet property="selfButton" destination="FBn-8J-1Qi" id="g9C-6X-f9M"/>
+                <outlet property="sendMoneyLabel" destination="LTa-4z-QD7" id="rzU-Fe-7Me"/>
+                <outlet property="signatureLabel" destination="8nZ-f8-P2q" id="dHi-j4-v9u"/>
+                <outlet property="ticketLabel" destination="dkZ-BV-PZH" id="5b4-6G-oAt"/>
+                <outlet property="topView" destination="8Ea-Y4-SPe" id="fxK-j1-rqc"/>
+            </connections>
+            <point key="canvasLocation" x="305" y="222"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="livepre_close.png" width="26" height="26"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>

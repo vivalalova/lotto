@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LiveVC">
+            <connections>
+                <outlet property="beautyButton" destination="aVg-fO-IoQ" id="LYQ-uo-qAC"/>
+                <outlet property="bottomToolBar" destination="Pxg-F6-lFB" id="P0e-MJ-z3r"/>
+                <outlet property="camerButton" destination="PhP-we-IDk" id="Dbo-1I-OR1"/>
+                <outlet property="chatButton" destination="Jm6-gB-dg3" id="xDd-rd-nja"/>
+                <outlet property="chatTextField" destination="600-1g-gow" id="zw8-BL-DZZ"/>
+                <outlet property="chatTextFiledBar" destination="PAu-Ps-b7v" id="lhI-zj-Em8"/>
+                <outlet property="closeButton" destination="BAK-yd-CmE" id="uQr-4r-vkL"/>
+                <outlet property="contentView" destination="iDu-YL-4xh" id="xhx-3O-tcQ"/>
+                <outlet property="creditsButton" destination="11F-q7-elE" id="1ts-pT-CF8"/>
+                <outlet property="danmuBGView" destination="cld-Cr-f6F" id="qbf-v3-uJQ"/>
+                <outlet property="danmuLabel" destination="IzO-ne-EbJ" id="OJn-S4-R7s"/>
+                <outlet property="flashButton" destination="pmU-Hm-okK" id="f9S-jI-ZsJ"/>
+                <outlet property="headerBGView" destination="8Ln-Fg-xHj" id="5WZ-Mz-zzt"/>
+                <outlet property="headerImageV" destination="dhc-nO-Rcj" id="yOv-qn-thM"/>
+                <outlet property="liveView" destination="JI4-Mw-l7l" id="GkT-rt-wTr"/>
+                <outlet property="onlineUserNumLabel" destination="IJX-wr-YNs" id="jjU-zc-vwL"/>
+                <outlet property="sendMessageButton" destination="LaZ-Ob-S6u" id="JaV-bP-OaJ"/>
+                <outlet property="tableView" destination="bSV-NC-1N7" id="v2D-H6-Ms0"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="JI4-Mw-l7l">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" id="iDu-YL-4xh">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" id="8Ln-Fg-xHj">
+                            <rect key="frame" x="10" y="30" width="90" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="dhc-nO-Rcj" customClass="WebImageView">
+                                    <rect key="frame" x="2.5" y="2.5" width="30" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
+                                    <color key="backgroundColor" red="1" green="0.56750019070000002" blue="0.64367389340000003" alpha="1" colorSpace="calibratedRGB"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="直播live" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3EN-64-C3Z">
+                                    <rect key="frame" x="37.5" y="5" width="45" height="10"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="IJX-wr-YNs">
+                                    <rect key="frame" x="37" y="20" width="45" height="10"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="7"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="oQu-cE-Yvb">
+                                    <rect key="frame" x="0.0" y="0.0" width="90" height="35"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <state key="normal">
+                                        <color key="titleColor" red="0.8980392157" green="0.87450980389999999" blue="0.65490196079999996" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="hostInfoButtonClick:" destination="-1" eventType="touchUpInside" id="loA-zD-MCZ"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="1" green="0.56750019070000002" blue="0.64367389340000003" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="11F-q7-elE">
+                            <rect key="frame" x="10" y="70" width="70" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.64258035290000004" green="1" blue="0.35281929579999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <state key="normal" title="球票贡献榜"/>
+                            <connections>
+                                <action selector="creditsButtonClickAction:" destination="-1" eventType="touchUpInside" id="LxV-II-ief"/>
+                            </connections>
+                        </button>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="bSV-NC-1N7">
+                            <rect key="frame" x="0.0" y="358" width="320" height="160"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </tableView>
+                        <view contentMode="scaleToFill" id="Pxg-F6-lFB">
+                            <rect key="frame" x="0.0" y="523" width="320" height="40"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Jm6-gB-dg3">
+                                    <rect key="frame" x="10" y="0.0" width="40" height="40"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <state key="normal" image="live_chat.png"/>
+                                    <state key="highlighted" image="PersonLive_chat_high.png"/>
+                                    <connections>
+                                        <action selector="chatButtonClick:" destination="-1" eventType="touchUpInside" id="Muk-mX-dqh"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="BAK-yd-CmE">
+                                    <rect key="frame" x="275" y="3" width="34" height="34"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                    <state key="normal" image="live_close.png"/>
+                                    <state key="selected" image="live_close.png"/>
+                                    <state key="highlighted" image="87E4AD9A-8AA3-40B3-973B-AD96208A16B0"/>
+                                    <connections>
+                                        <action selector="closeButtonClick:" destination="-1" eventType="touchUpInside" id="1tH-jA-bFD"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="pmU-Hm-okK">
+                                    <rect key="frame" x="239" y="3" width="34" height="34"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                    <state key="normal" image="PersonLive_noEnergy.png"/>
+                                    <state key="selected" image="PersonLive_energy.png"/>
+                                    <state key="highlighted" image="PersonLive_energy_high.png"/>
+                                    <connections>
+                                        <action selector="flashButtonClick:" destination="-1" eventType="touchUpInside" id="Jxo-LK-jdD"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="PhP-we-IDk">
+                                    <rect key="frame" x="202" y="3" width="34" height="34"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                    <state key="normal" image="PersonLive_turn.png"/>
+                                    <state key="highlighted" image="PersonLive_turn_high.png"/>
+                                    <connections>
+                                        <action selector="camerButtonClick:" destination="-1" eventType="touchUpInside" id="B2t-66-Jwt"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="aVg-fO-IoQ">
+                                    <rect key="frame" x="168" y="3" width="34" height="34"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                    <state key="normal" image="PerpareLive_Beauty_unSelect.png"/>
+                                    <state key="selected" image="PerpareLive_Beauty.png"/>
+                                    <state key="highlighted" image="PerpareLive_Beauty_select.png"/>
+                                    <connections>
+                                        <action selector="beautyButtonClick:" destination="-1" eventType="touchUpInside" id="0wa-XW-mSf"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="PAu-Ps-b7v">
+                            <rect key="frame" x="0.0" y="568" width="320" height="40"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" id="cld-Cr-f6F">
+                                    <rect key="frame" x="0.0" y="0.0" width="52" height="33"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="弹幕" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="IzO-ne-EbJ">
+                                            <rect key="frame" x="1" y="1" width="32" height="31"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="el2-T8-soN">
+                                            <rect key="frame" x="0.0" y="0.0" width="52" height="33"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <connections>
+                                                <action selector="barrageButtonClick:" destination="-1" eventType="touchUpInside" id="ThH-WR-Osj"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" red="1" green="0.27155799050000001" blue="0.22825480449999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </view>
+                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="和大家说点什么" textAlignment="natural" minimumFontSize="17" id="600-1g-gow">
+                                    <rect key="frame" x="55" y="0.0" width="208" height="33"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="LaZ-Ob-S6u">
+                                    <rect key="frame" x="265" y="0.0" width="55" height="33"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" title="send"/>
+                                    <connections>
+                                        <action selector="sendMessageButtonClick:" destination="-1" eventType="touchUpInside" id="1dl-TQ-qD0"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="287" y="234"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="87E4AD9A-8AA3-40B3-973B-AD96208A16B0" width="16" height="16">
+            <mutableData key="keyedArchiveRepresentation">
+YnBsaXN0MDDUAQIDBAUGOzxYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK0HCBMU
+GR4fJSYsLzU4VSRudWxs1QkKCwwNDg8QERJWTlNTaXplViRjbGFzc1xOU0ltYWdlRmxhZ3NWTlNSZXBz
+V05TQ29sb3KAAoAMEiTAAACAA4AKWHsxNiwgMTZ90hUKFhhaTlMub2JqZWN0c6EXgASACdIVChoYohsc
+gAWABoAJEAXTIAohIiMkV05TLmJhc2VbTlMucmVsYXRpdmWAAIAIgAdfEHxmaWxlOi8vL0FwcGxpY2F0
+aW9ucy9YY29kZS5hcHAvQ29udGVudHMvUGx1Z0lucy9JREVJbnRlcmZhY2VCdWlsZGVyS2l0LmlkZXBs
+dWdpbi9Db250ZW50cy9SZXNvdXJjZXMvSUJNaXNzaW5nSW1hZ2VHbHlwaC50aWZm0icoKSpaJGNsYXNz
+bmFtZVgkY2xhc3Nlc1VOU1VSTKIpK1hOU09iamVjdNInKC0uV05TQXJyYXmiLSvTMDEKMjM0V05TV2hp
+dGVcTlNDb2xvclNwYWNlRDAgMAAQA4AL0icoNjdXTlNDb2xvcqI2K9InKDk6V05TSW1hZ2WiOStfEA9O
+U0tleWVkQXJjaGl2ZXLRPT5Ucm9vdIABAAgAEQAaACMALQAyADcARQBLAFYAXQBkAHEAeACAAIIAhACJ
+AIsAjQCWAJsApgCoAKoArACxALQAtgC4ALoAvADDAMsA1wDZANsA3QFcAWEBbAF1AXsBfgGHAYwBlAGX
+AZ4BpgGzAbgBugG8AcEByQHMAdEB2QHcAe4B8QH2AAAAAAAAAgEAAAAAAAAAPwAAAAAAAAAAAAAAAAAA
+Afg
+</mutableData>
+        </image>
+        <image name="PerpareLive_Beauty.png" width="29" height="29"/>
+        <image name="PerpareLive_Beauty_select.png" width="40" height="40"/>
+        <image name="PerpareLive_Beauty_unSelect.png" width="29" height="29"/>
+        <image name="PersonLive_chat_high.png" width="16" height="16"/>
+        <image name="PersonLive_energy.png" width="29" height="29"/>
+        <image name="PersonLive_energy_high.png" width="40" height="40"/>
+        <image name="PersonLive_noEnergy.png" width="29" height="29"/>
+        <image name="PersonLive_turn.png" width="29" height="29"/>
+        <image name="PersonLive_turn_high.png" width="40" height="40"/>
+        <image name="live_chat.png" width="28" height="29"/>
+        <image name="live_close.png" width="29" height="29"/>
+    </resources>
+</document>
