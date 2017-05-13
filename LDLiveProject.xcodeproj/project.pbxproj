@@ -6091,7 +6091,7 @@
 					"-fobjc-arc",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dsy.dev.lloott;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dsy.dev.lotto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -6137,7 +6137,7 @@
 					"-fobjc-arc",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dsy.dev.lloott;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dsy.dev.lotto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";

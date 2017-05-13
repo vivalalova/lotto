@@ -13,7 +13,12 @@
 #warning:IOS后台接口应用地址
 
 //#define URI_BASE_SERVER      @"http://www.golf8.tv/"
-#define URI_BASE_SERVER      @"http://tank37.3322.org:28001/"
+#define URI_SERVER_NEW       @"http://192.168.1.38:8001/"
+#define URI_SERVER_OLD       @"http://tank37.3322.org:28001/"
+#define URI_BASE_SERVER      URI_SERVER_OLD
+
+#define TEST_PHONE_NUM       @"18601201465"
+#define TEST_VIRIFY_CODE     @"123456"
 
 //#define URI_BASE_SERVER      @"http://gf.myxstar.cn/"
 //#define URI_BASE_SERVER      @"http://gtv.daofeng365.com/"
